@@ -1,0 +1,50 @@
+
+$enable-shadows: true;
+$primary: rgb(0, 19, 223);
+
+$body-color:  #414042;
+$body-bg: #ffffff;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.login-wrap {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+    h1{
+      text-align: center;
+    }
+  }
+}
+.leftAlign {
+  text-align: "left" ;
+  margin: '4%';
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.color-red {
+  color:red;
+}
